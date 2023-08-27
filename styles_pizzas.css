@@ -1,0 +1,193 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(img/olive-italian-pizza-icon-flat-style-vector.jpg);
+    background-size: 70%; 
+    background-position: center;
+}
+
+.telfono {
+    width: 340px;
+    height: 580px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.telefono-screen {
+    width: 320px;
+    height: 530px;
+    background-color: #5b3333;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.telefono-button {
+    width: 60px;
+    height: 20px;
+    background-color: #edeaea;
+    position: absolute;
+    bottom: 15px;
+    left: calc(50% - 30px);
+    border-radius: 25%;
+}
+.rectangulo-horizontal {
+    width: 330px;
+    height: 25px;
+    background-color: #010101;
+    border-radius: 7%;
+    position: absolute;
+    top: 0%; 
+    left: 0%; 
+}
+.rectangulo-horizontal2 {
+    width: 330px;
+    height: 40px;
+    background-color: #f4f0f0;
+    position: absolute;
+    top: 4.6%; 
+    left: 0%; 
+}
+.horario {
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    font-weight: bold;
+    filter: invert(100%);
+}
+
+.img {
+    width: 21px; 
+    height: 14px; 
+    position: absolute;
+    top: 50%; 
+    left: 6%;
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+    filter: invert(100%);
+}
+.texto-claro {
+    color: #000000; /* Color del texto en blanco */
+    font-size: 11px;
+    font-weight: bolder;
+    position: absolute;
+    top: 50%; 
+    left: 21%; 
+    transform: translate(-50%, -50%); 
+    z-index: 2; 
+    filter: invert(100%);
+}
+
+.img-menu {
+    width: 29px; 
+    height: 29px; 
+    position: absolute;
+    top: 50%; 
+    left: 8%;
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+}
+
+.img-bolsacompra {
+    width: 25px; 
+    height: 25px; 
+    position: absolute;
+    top: 50%; 
+    left: 88%;
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+}
+.texto-inicio {
+    color: #000000; 
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%; 
+    left: 47%; 
+    transform: translate(-50%, -50%);
+    z-index: 2; 
+}
+.img-pizzainicio {
+    width: 305px;
+    height: 180px;
+    position: absolute;
+    top: 30%; 
+    left: 50%;
+    border-radius: 5%;
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+}
+
+.rectangulo-horizontal-e1 {
+    width: 300px;
+    height: 100px;
+    background-color: #d7b58e95;
+    border-radius: 5%;
+    position: absolute;
+    top: 50%; 
+    left: 2%; 
+}
+
+.rectangulo-horizontal-e2 {
+    width: 300px;
+    height: 100px;
+    background-color: #d7b58e95;
+    border-radius: 5%;
+    position: absolute;
+    top: 75%; 
+    left: 2%; 
+}
+.img6-nachos {
+    width: 80px;
+    height: 90px;
+    position: absolute;
+    top: 48.4%; 
+    left: 20%;
+    border-radius: 5%;
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+}
+
+.img7-crepa {
+    width: 80px;
+    height: 90px;
+    position: absolute;
+    top: 48.4%; 
+    left: 20%;
+    border-radius: 5%;
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+}
+.texto-nacho {
+    color: #ffffff; /* Color del texto en blanco */
+    font-size: 20px;
+    font-weight: bolder;
+    position: absolute;
+    top: 40%; 
+    left: 61%; 
+    transform: translate(-50%, -50%); 
+    z-index: 2; 
+}
+
+.texto-crepa {
+    color: #ffffff; /* Color del texto en blanco */
+    font-size: 20px;
+    font-weight: bolder;
+    position: absolute;
+    top: 40%; 
+    left: 61%; 
+    transform: translate(-50%, -50%); 
+    z-index: 2; 
+}
